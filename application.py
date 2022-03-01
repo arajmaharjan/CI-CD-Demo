@@ -5,7 +5,7 @@ app = application
 
 @application.route('/')
 def hello_world():
-    return 'You better work!!.'
+    return 'yeah you work!!.'
 
 if __name__ == '__main__':
     app.run(debug=True)
