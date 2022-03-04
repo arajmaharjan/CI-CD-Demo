@@ -17,4 +17,4 @@ def root_page():
     return render_template("index.html", name=name, kg=kg, m=m, bmi=bmi)
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    application.run(debug=True) 
